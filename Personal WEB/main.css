@@ -84,6 +84,10 @@ h1{
 	width: auto;
 }
 
+.logo:hover{
+	transform: scale(1.25) rotate(-10deg);
+}
+
 nav{
 	text-align: right;
 }
@@ -138,6 +142,11 @@ img{
 
 .circle{
 	border-radius: 50%;
+}
+
+.profile:hover{
+	transform: scale(2);
+	transition-duration: 0.1s;
 }
 
 .biography{
@@ -243,3 +252,4 @@ input[type=submit]:hover {
 	grid-gap: 10px;
 	justify-content: center;
 }
+
