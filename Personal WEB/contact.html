@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Antonius Wisnu - Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div id="home">
+		<div id="navbar" class="row padding-16">
+			<div class="logo col-12 padding-16">
+				<a href="index.html"><img class="circle" src="images/logo.png" alt="logo" style="width: 80px;"/></a>
+			</div>
+			<nav class="padding-16">
+				<ul>
+					<li><a class="col-2" href="index.html">About</a></li>
+					<li><a class="col-2" href="resume.html">Resume</a></li>	
+					<li><a class="active col-2" href="#">Contact</a></li>	
+				</ul>				
+			</nav>
+		</div>
+	</div> <!-- home -->
+	<div id="contact" class="center padding-32">
+		<div class="center container">
+		 	<form action="/action_page.php">
+			    <label for="name">Name</label>
+			    <input type="text" id="name" name="name" placeholder="Your name..">
+
+			    <label for="email">Email</label>
+			    <input type="text" id="email" name="email" placeholder="Your email">
+			    
+			    <label for="subject">Subject</label>
+			    <input type="text" id="subject" name="subject" placeholder="Your subject">
+
+			    <label for="message">Message</label>
+			    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+			    <input type="submit" value="Submit" onclick="myFunction()">
+		  	</form>
+		  	<script>
+				function myFunction(){alert("Thank you, your message has been sent!")}
+			</script>
+		</div> <!-- form -->
+				
+	</div> <!-- contact -->
+	<div id="footer" class="center padding-16">
+		<p>
+			© 2019
+			<a href="index.html" style="color: white;">Antonius Wisnu</a>.
+			All rights reserved.
+		</p>
+	</div> <!-- footer -->
+</body>
+</html>

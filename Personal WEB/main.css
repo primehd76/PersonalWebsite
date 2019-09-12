@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari|Titillium+Web|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Indie+Flower|Shadows+Into+Light&display=swap');
+
+* {box-sizing: border-box;}
+
+@media only screen and (min-width: 768px){
+	.col-1{width: 8.33%;}
+	.col-2{width: 16.66%;}
+	.col-3{width: 25%;}
+	.col-4{width: 33.33%;}
+	.col-5{width: 41.66%;}
+	.col-6{width: 50%;}
+	.col-7{width: 58.33%;}
+	.col-8{width: 66.66%;}
+	.col-9{width: 75%;}
+	.col-10{width: 83.33%;}
+	.col-11{width: 91.66%;}
+	.col-12{width: 100%;}
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Titillium', sans-serif;
+}
+
+h1{
+	margin: 0px;
+}
+
+.padding-8{
+	padding: 8px;
+}
+
+.padding-16{
+	padding: 16px;
+}
+
+.padding-32{
+	padding: 32px;
+}
+
+.padding-64{
+	padding: 64px;
+}
+
+.center{
+	text-align: center;
+}
+
+.row:after{
+	content: '';
+	clear: both;
+	display: block;
+	margin: 0px;
+	overflow: auto;
+}
+
+.row div{
+	float: left;
+}
+
+#home{
+	padding-top: 0px;
+	margin-top: 0px;
+	background: black;
+	color: white;
+}
+
+#footer{
+	background: black;
+	color: white;
+}
+
+#navbar{
+	background: black;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.logo{
+	display: inline-block;
+	text-align: left;
+	width: auto;
+}
+
+nav{
+	text-align: right;
+}
+
+nav li{
+	display: inline-block;
+	padding:10px;
+	font-size:20px; font-family: 'Ubuntu';
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: #68c3a3;
+  text-decoration: underline;	
+}
+
+.active{
+	color: #68c3a3;
+	text-decoration: underline;	 
+}
+
+#aboutme{
+	background: white;
+}
+
+#aboutme:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.row:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.row h1{
+	color: #2c3e50;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.circle{
+	border-radius: 50%;
+}
+
+.biography{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 3px solid #EEEEEE;
+    display: inline-block;
+}
+
+.biography ul{
+	padding: 5px 20px 10px;
+	text-align: left;
+}
+
+.biography ul li{
+	padding: 5px 0;
+	list-style: none;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+#resume{
+	background: white;
+}
+
+#resume:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.bungkus{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.education ul{
+	padding: 5px 20px 10px;
+	text-align: left;
+}
+
+.education ul li{
+	padding: 5px 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.experience ul{
+	padding: 5px 20px 10px;
+	text-align: left;
+}
+
+.experience ul li{
+	padding: 5px 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+#contact{
+	background: white;
+}
+
+#contact:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
